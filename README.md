@@ -15,13 +15,12 @@ sudo bash install
 ```
 4. Delete the downloaded directory. From one directory up, run:
 ```
-sudo rm -r rpi_power-button
+sudo rm -r rpi_fan-pwm
 ```
 
 ## Hardware / Wiring
 
-A normally-open (NO) push button is required.
-Connect the power button to the GPIO's Pin 5 (SCL) and Pin 6 (GND).
+A PWM Fan is required.
 
 ```
 40-Pin Layout - RPI 3b(+), 4, Zero (W)
