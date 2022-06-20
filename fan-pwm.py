@@ -1,3 +1,5 @@
+# Script taken and modified from DriftKingTw's Blog: https://blog.driftking.tw/en/2019/11/Using-Raspberry-Pi-to-Control-a-PWM-Fan-and-Monitor-its-Speed/
+
 import RPi.GPIO as GPIO
 import time
 import signal
@@ -10,7 +12,7 @@ WAIT_TIME = 1           # [s] Time to wait between each refresh
 PWM_FREQ = 25           # [kHz] 25kHz for Noctua PWM control
 
 # Configurable temperature and fan speed
-MIN_TEMP = 40
+MIN_TEMP = 43
 MAX_TEMP = 70
 FAN_LOW = 40
 FAN_HIGH = 100
