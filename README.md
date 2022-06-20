@@ -1,6 +1,6 @@
 # Rpi_Fan-PWM
 
-Python script to control the curve of a 5V PWM. Optimized for NF-A4x10 and NF-A4x20 5V PWM noctua fans. 
+Python script to control the curve of a 5V PWM fan. Optimized for the 5V-PWM Noctua NF-A4x10 and NF-A4x20. 
 
 ## Install
 
