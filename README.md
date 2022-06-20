@@ -7,7 +7,7 @@ Python script to control the curve of a 5V PWM. Optimized for NF-A4x10 and NF-A4
 1. [Connect to your Raspberry Pi via SSH]
 2. Clone this repo: 
 ```
-sudo git clone https://github.com/qeiynn/rpi_power-button.git
+sudo git clone https://github.com/qeiynn/rpi_fan-pwm.git
 ```
 3. Inside folder run the installation script: 
 ```
