@@ -1,8 +1,6 @@
 # Rpi_Fan-PWM
 
-Python script to safely turn-off the Raspi with a use of a button. The script is waiting for an interrupt in order to trigger. This saves cpu resources as it isn't constantly watching the Pins.
-
-The button must pressed for 2 seconds in order to shutdown. The purpose is to avoid shutdown by accidental button presses.
+Python script to control the curve of a 5V PWM. Optimized for NF-A4x10 and NF-A4x20 5V PWM noctua fans. 
 
 ## Install
 
